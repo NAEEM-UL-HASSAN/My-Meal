@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes rotate {
+    0% {
+        rotate: 360deg;
+    }
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.item {
+    margin-top: 18px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 3px 13px;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    color: white;
+    border-radius: 15px;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+#homee {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 344px;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    padding-bottom: 235px;
+}
+
+.h2 {
+    font-size: 3.8rem;
+    margin-top: 290px;
+    font-weight: bold;
+}
+
+#homee p {
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.btn1 {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 161px;
+}
+
+#homee::before {
+    content: "";
+    background: url(bg1.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 660px;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.navigation::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 120%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: 'Bree Serif', serif;
+    padding-bottom: 25px;
+    margin-top: 80px;
+}
+
+.main {
+    display: flex;
+}
+
+.bb {
+    border: 2px solid brown;
+    border-radius: 28px;
+    margin: 23px;
+    background: #f2f2f2;
+    padding: 34px;
+    margin: 2px 55px;
+}
+
+#services .bb img {
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+.h-secondary {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.center {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cli {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    margin: 0px 40px;
+}
+
+.image img {
+    display: block;
+    margin: auto;
+    height: 124px;
+}
+
+#clients {
+    margin-top: 56px;
+    height: 330px;
+}
+
+#clients::before {
+    content: "";
+    background: url(bg.jpg);
+    position: absolute;
+    width: 100%;
+    height: 330px;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.conme {
+
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+}
+#contact-box input,
+#contact-box textarea {
+    width: 40vw;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact {
+    margin-bottom: 45px;
+    height: 640px;
+}
+
+#contact::before {
+    content: "";
+    background: url(contact.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 640px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.centeer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: -45px;
+    font-family: 'Bree Serif', serif;
+}
